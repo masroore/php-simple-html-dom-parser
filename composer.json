@@ -1,0 +1,27 @@
+{
+    "name": "masroore/php-simple-html-dom-parser",
+    "description": "PHP Simple HTML DOM Parser with namespace and PHP 7.x compatible",
+    "keywords": ["html", "dom", "simple"],
+    "homepage": "https://github.com/masroore/php-simple-html-dom-parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S.C. Chen",
+            "email": "me578022@gmail.com",
+            "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+        },
+        {
+            "name": "Masroor Ehsan",
+            "email": "masroore@users.noreply.github.com",
+            "homepage": "https://github.com/masroore"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-0": { "SimpleHtmlDomParser": "src/" }
+    }
+}
