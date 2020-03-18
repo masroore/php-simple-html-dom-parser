@@ -460,8 +460,7 @@ class SimpleHtmlDom
         }
 
         // This add next line is documented in the sourceforge repository.
-        // 2977248 as a fix for ongoing memory leaks that occur even with the
-        // use of clear.
+        // 2977248 as a fix for ongoing memory leaks that occur even with the use of clear.
         if (isset($this->children)) {
             foreach ($this->children as $n) {
                 $n->clear();
@@ -1213,18 +1212,6 @@ class SimpleHtmlDom
             case 'target_charset':
                 return $this->_target_charset;
         }
-    }
-
-    /**
-     * @param string $name
-     * @param $value
-     */
-    public function __set(string $name, $value)
-    {
-    }
-
-    public function __isset(string $name): bool
-    {
     }
 
     // camel naming conventions
